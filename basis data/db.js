@@ -12,7 +12,7 @@ if(url == 'https://fxc7-api.herokuapp.com') throw console.log(color('Cek konfigu
 var db = monk(url);
 
 db.then(() => {
-  console.log(color('Connected correctly to server, ZhirrrGanss','green'))
+  konsol . log ( color ( 'Terhubung dengan benar ke server, Cepti' , 'hijau' ))
 })
 .catch ((e) => {
 	console.log(color('Error : '+ e +'\n\nGagal connect ke database, \ncek configurasi database apakah Connection URL sudah benar','red'))
